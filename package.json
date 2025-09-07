@@ -2,7 +2,6 @@
   "name": "anniversary-scavenger-hunt",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://sanonrickny.github.io/Bels",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
