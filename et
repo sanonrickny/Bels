@@ -1,0 +1,18 @@
+ build/asset-manifest.json                    |  13 [32m+++++++++[m
+ build/images/FIU.jpg                         | Bin [31m0[m -> [32m219829[m bytes
+ build/images/First date.JPG                  | Bin [31m0[m -> [32m1738464[m bytes
+ build/images/memories 3.JPG                  | Bin [31m0[m -> [32m2417704[m bytes
+ build/images/memories1.JPG                   | Bin [31m0[m -> [32m2912329[m bytes
+ build/images/memories2.JPG                   | Bin [31m0[m -> [32m3241855[m bytes
+ build/images/memories4.JPG                   | Bin [31m0[m -> [32m2963161[m bytes
+ build/images/memories5.jpg                   | Bin [31m0[m -> [32m1705268[m bytes
+ build/index.html                             |   1 [32m+[m
+ build/manifest.json                          |  15 [32m+++++++++++[m
+ build/static/css/main.1e32b7b0.css           |   4 [32m+++[m
+ build/static/css/main.1e32b7b0.css.map       |   1 [32m+[m
+ build/static/js/main.a013c3c4.js             |   3 [32m+++[m
+ build/static/js/main.a013c3c4.js.LICENSE.txt |  39 [32m+++++++++++++++++++++++++++[m
+ build/static/js/main.a013c3c4.js.map         |   1 [32m+[m
+ node_modules/.cache/.eslintcache             |   2 [32m+[m[31m-[m
+ src/components/stages/Stage5.js              |   3 [31m---[m
+ 17 files changed, 78 insertions(+), 4 deletions(-)
