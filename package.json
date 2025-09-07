@@ -18,6 +18,7 @@
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
     "vercel-build": "CI=false react-scripts build",
+    "postinstall": "chmod +x node_modules/.bin/react-scripts || true",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
