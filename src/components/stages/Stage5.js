@@ -5,7 +5,6 @@ const Stage5 = ({ onNext }) => {
   const [timeLeft, setTimeLeft] = useState(180); // 3 minutes in seconds
   const [timerStarted, setTimerStarted] = useState(false);
   const [showReward, setShowReward] = useState(false);
-  const [timerStartTime, setTimerStartTime] = useState(null);
 
   const TIMER_DURATION = 180; // 3 minutes in seconds
 
@@ -34,7 +33,6 @@ const Stage5 = ({ onNext }) => {
         remainingTime
       );
 
-      setTimerStartTime(startTime);
       setTimerStarted(true);
       setTimeLeft(remainingTime);
 
@@ -68,7 +66,6 @@ const Stage5 = ({ onNext }) => {
 
   const startTimer = () => {
     const startTime = Date.now();
-    setTimerStartTime(startTime);
     setTimerStarted(true);
     localStorage.setItem("stage5TimerStart", startTime.toString());
     console.log(
