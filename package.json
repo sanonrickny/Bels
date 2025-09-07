@@ -2,6 +2,7 @@
   "name": "anniversary-scavenger-hunt",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://sanonrickny.github.io/Bels",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -15,10 +16,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false && react-scripts build",
-    "vercel-build": "CI=false && react-scripts build",
+    "build": "CI=false react-scripts build",
+    "vercel-build": "CI=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,10 +44,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "gh-pages": "^6.0.0"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": "18.x",
     "npm": ">=8.0.0"
   }
 }
